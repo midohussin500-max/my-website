@@ -1,0 +1,83 @@
+body {
+      font-family: 'Tajawal', sans-serif;
+      background: linear-gradient(to bottom, #f9fafb, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 450px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #e2e8f0;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #1e293b;
+    }
+
+    p {
+      color: #64748b;
+      margin: 5px 0 20px;
+      font-size: 14px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #1e293b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .link:hover {
+      background-color: #e2e8f0;
+      transform: scale(1.02);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    button.copy-btn {
+      background-color: #f1f5f9;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    button.copy-btn:hover {
+      background-color: #e2e8f0;
+    }
