@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>روابطي الشخصية</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="Screenshot 2025-10-24 184927.png" alt="avatar" class="avatar">
+    <h1>Mohamed Hussien</h1>
+    <p>Computer Science Student</p>
+
+    <div class="links">
+      <a href="https://www.facebook.com/profile.php?id=61559877902027&locale=ar_AR" target="_blank" class="link">
+        <span>facebook </span>
+        <button class="copy-btn" onclick="copyLink('https://www.facebook.com/profile.php?id=61559877902027&locale=ar_AR')">copy</button>
+      </a>
+      <a href="https://www.instagram.com/midohussin500/" target="_blank" class="link">
+        <span>instagram </span>
+        <button class="copy-btn" onclick="copyLink('https://www.instagram.com/midohussin500/')">copy</button>
+      </a>
+      <a href="https://www.snapchat.com/add/mhusseinsaeed25?share_id=RWYcQ77f6F4&locale=en-US" class="link">
+        <span>snapchat</span>
+        <button class="copy-btn" onclick="copyLink('https://www.snapchat.com/add/mhusseinsaeed25?share_id=RWYcQ77f6F4&locale=en-US')">copy</button>
+      </a>
+      <a href="https://wa.me/+201093874198" target="_blank" class="link">
+        <span>whatsapp</span>
+        <button class="copy-btn" onclick="copyLink('https://wa.me/+201093874198')">copy</button>
+      </a>
+    </div>
+
+    <div class="footer">All rights reserved  2025 ©</div>
+  </div>
+
+  <script>
+    function copyLink(url) {
+      navigator.clipboard.writeText(url);
+      alert('Link copied: ' + url);
+    }
+  </script>
+</body>
+</html>
