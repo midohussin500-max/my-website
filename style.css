@@ -1,6 +1,6 @@
 body {
       font-family: 'Tajawal', sans-serif;
-      background: linear-gradient(to bottom, #f9fafb, #ffffff);
+      background-image: linear-gradient(to bottom, tomato, black);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -30,13 +30,15 @@ body {
     h1 {
       margin: 0;
       font-size: 24px;
-      color: #1e293b;
+      color: black;
+      font-family: monospace;
     }
 
     p {
-      color: #64748b;
+      color: black;
       margin: 5px 0 20px;
       font-size: 14px;
+      font-family: fantasy;
     }
 
     .links {
@@ -45,13 +47,91 @@ body {
       gap: 12px;
     }
 
-    .link {
-      background-color: #f8fafc;
+    .facebook {
+      background-image: linear-gradient(to left, lightblue, black);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
       text-decoration: none;
-      color: #1e293b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .instagram{
+      background-image: linear-gradient(to left, tomato, black);
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .snapchat{
+      background-image: linear-gradient(to left, yellow, black);
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .tiktok{
+      background-image: linear-gradient(to left, black, black);
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .x{
+      background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0.534));
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .telegram{
+      background-image: linear-gradient(to left, blue, black);
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .whatsapp{
+      background-image: linear-gradient(to left, lightgreen, black);
+      border: 1px solid #e2e8f0;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -66,7 +146,7 @@ body {
     .footer {
       margin-top: 20px;
       font-size: 12px;
-      color: #94a3b8;
+      color: black;
     }
 
     button.copy-btn {
@@ -81,4 +161,3 @@ body {
     button.copy-btn:hover {
       background-color: #e2e8f0;
     }
-    
