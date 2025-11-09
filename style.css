@@ -1,6 +1,6 @@
 body {
       font-family: 'Tajawal', sans-serif;
-      background-image: linear-gradient(to bottom, tomato, black);
+      background-image: linear-gradient(to bottom, #001F54, #6A5ACD);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -9,7 +9,7 @@ body {
     }
 
     .container {
-      background-color: white;
+      background-image: linear-gradient(to bottom, #FDFDFD, #DADADA);
       border-radius: 20px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
       width: 90%;
@@ -23,8 +23,8 @@ body {
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #e2e8f0;
-      margin-bottom: 15px;
+      border: 3px solid #f0e2ef;
+      margin-bottom: 0px;
     }
 
     h1 {
@@ -35,10 +35,10 @@ body {
     }
 
     p {
-      color: black;
+      color: #000;
       margin: 5px 0 20px;
       font-size: 14px;
-      font-family: fantasy;
+      font-family: monospace;
     }
 
     .links {
@@ -48,7 +48,7 @@ body {
     }
 
     .facebook {
-      background-image: linear-gradient(to left, lightblue, black);
+      background-image: linear-gradient(to left, #0A3D62, #0F9DFF);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -61,7 +61,7 @@ body {
     }
 
     .instagram{
-      background-image: linear-gradient(to left, tomato, black);
+      background-image: linear-gradient(to left, #FF7E5F, #E100FF);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -74,7 +74,7 @@ body {
     }
 
     .snapchat{
-      background-image: linear-gradient(to left, yellow, black);
+      background-image: linear-gradient(to left, #FFFC00, black);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -100,7 +100,7 @@ body {
     }
 
     .x{
-      background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0.534));
+      background-image: linear-gradient(to left, #333333, #AAAAAA);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -113,7 +113,7 @@ body {
     }
 
     .telegram{
-      background-image: linear-gradient(to left, blue, black);
+      background-image: linear-gradient(to left, #0088CC, #E0F7FF);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -126,7 +126,7 @@ body {
     }
 
     .whatsapp{
-      background-image: linear-gradient(to left, lightgreen, black);
+      background-image: linear-gradient(to left, lightgreen, #E0F7FF);
       border: 1px solid #e2e8f0;
       padding: 12px 18px;
       border-radius: 12px;
@@ -147,6 +147,7 @@ body {
       margin-top: 20px;
       font-size: 12px;
       color: black;
+      font-family: serif;
     }
 
     button.copy-btn {
@@ -159,5 +160,5 @@ body {
     }
 
     button.copy-btn:hover {
-      background-color: #e2e8f0;
+      background-color: #b5b8bb;
     }
